@@ -1,3 +1,29 @@
 body{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(12, 99, 12);
+    font-family: monospace;
+    background: grey;
+
+}
+
+#snake {
+    border-radius: 15px;
+    box-shadow: 5px 2px 20px black;
+    margin-top: 10px;
+}
+
+.titulo {
+    color: honeydew;
+    text-shadow: 0.2em 0.2em #333;
     
+}
+
+.botao {
+    padding: 5px;
+    border-radius: 10px;
 }
